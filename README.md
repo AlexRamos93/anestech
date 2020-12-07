@@ -4,7 +4,7 @@
 
 1.1 - Create two database schemas, one for dev and the second one for testing.
 
-1.2 - Create a .env file following this template:
+1.2 - Create a .env file with the following template:
 ```
 PORT=
 DB_USERNAME=
@@ -25,12 +25,12 @@ $ npm install
 
 ### 1.4 - Setting up the db
 
-1.4.1 - Run this command to migrate into the testing db and seeding mock data.
+1.4.1 - Run this command to migrate the testing db and seeding mock data.
 ```
 $ npm run db:test
 ```
 
-1.4.2 - Run this command to migrate into the dev db and seeding a admin user.
+1.4.2 - Run this command to migrate the dev db and seeding a admin user.
 ```
 $ npm run db:dev
 ```
